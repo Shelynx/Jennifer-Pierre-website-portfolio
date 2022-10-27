@@ -17,12 +17,11 @@ body {
   background-color: #fff;
 }
 
-/* NavBar */
+/********************** NavBar **********************/
 .navbar {
   padding: 0;
   padding-bottom: 4.5rem;
 }
-
 
 .nav-item {
   padding: 0 18px;
@@ -36,7 +35,7 @@ body {
   padding-right: 0;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #c09ac7;
 }
 
@@ -44,13 +43,11 @@ body {
   color: #92669f;
 }
 
-.vl{
+.vl {
   border-left: 2.5px solid #b1a238;
   height: 25px;
   align-self: center;
 }
-
-
 
 /* Heading */
 #title {
@@ -73,11 +70,11 @@ body {
   padding-right: 80px;
 }
 
-.worry{
-  color:#b1a238 ;
+.worry {
+  color: #b1a238;
   font-stretch: ultra-expanded;
   /* font-size: 1.4rem; */
-font-weight: 400;
+  font-weight: 400;
 }
 
 /** BUTTON **/
@@ -136,7 +133,8 @@ circle {
 
 
 
-/* Second-section*/
+
+/***************** Second-section *********************/
 #features {
   padding: 5% 7%;
   /* position: relative;
@@ -166,16 +164,21 @@ span {
   vertical-align: top;
 }
 
+.right-col{
+  padding-left: 0;
+}
+
 .text-features {
   color: #000000;
   text-align: left;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 1.2;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+
 }
 
-.right-col{
+.right-col {
   padding-top: 50px;
 }
 
@@ -193,10 +196,7 @@ span {
   padding: 0;
 }
 
-
-
-
-/*THUMBNAIL MODDALS*/
+/************THUMBNAIL MODDALS*************/
 .featurette-image {
   border-width: 3px;
   padding: 5px 5px;
@@ -212,19 +212,24 @@ span {
   opacity: 1;
 }
 
-.modal{
-
+.footer>p{
+  margin-left: 25px;
+  margin-right: 25px;
 }
+
+.link-recette{
+  color:#92669f;
+}
+
+
+/************* .modal {} ********************/
 
 .modal-content {
   z-index: 0;
   background-color: rgba(255, 255, 255, 0.7);
 }
 
-
-
-
-/* Third Section */
+/*************** Third Section ****************/
 #skills {
   padding: 5% 7%;
 }
@@ -235,90 +240,91 @@ span {
   color: #92669f;
 }
 
-.section-text{
+.section-text {
   font-weight: 500;
   font-size: 1.4rem;
   margin-bottom: 75px;
 }
 
-.lavender, .golden{
+.section-skill-text-ex{
+  font-size: 1.3rem;
+}
+
+
+.lavender, .golden {
   font-weight: 500;
   font-size: 1.5rem;
   font-stretch: expanded;
   font-family: 'niveau-grotesk', sans-serif;
 }
 
-.lavender{
+.lavender {
   color: #92669f;
 }
 
-.lavender:hover{
+.lavender:hover {
   color: #c09bc8;
 }
 
-.golden{
-color: #7C6D03;
+.golden {
+  color: #7C6D03;
 }
 
-.golden:hover{
-color: #b1a238;
+.golden:hover {
+  color: #b1a238;
 }
 
-.skills-link:hover{
+.skills-link:hover {
   text-decoration: none;
 }
 
-.skill-box{
+.skill-box {
   margin-top: 15px;
 }
 
-.skill-ad-title{
+.skill-ad-title {
   font-size: 1rem;
   font-weight: 500;
   padding-top: 10px;
   color: #c09bc8;
 }
 
-.skill-int-title{
+.skill-int-title {
   font-size: 1rem;
   font-weight: 500;
   padding-top: 10px;
   color: #b1a238;
 }
 
-
-.intermediate{
-margin-top: 50px;
+.intermediate {
+  margin-top: 50px;
 }
 
-.skills-row{
-  padding:0 7%;
+.skills-row {
+  padding: 0 25%;
 }
 
-.skill-icon{
-  width:75px;
+.skill-icon {
+  width: 75px;
 }
 
-.skill-icon:hover{
+.skill-icon:hover {
   color: #8f7394;
 }
 
-
-
-/* Fourth Section */
+/***************** Fourth Section ****************/
 #interest {
-padding: 5% 7%;
+  padding: 5% 7%;
 }
 
-.section-colored-heading{
+.section-colored-heading {
   color: #92669f;
   font-weight: 500;
   font-size: 3rem;
   line-height: 1.5;
 }
 
-
-.section-colored-text{
+.section-colored-text {
   font-weight: 500;
   font-size: 1.4rem;
   margin-bottom: 75px;
@@ -340,7 +346,7 @@ padding: 5% 7%;
   padding: 0 0;
 }
 
-/* Tooltip container */
+/***** Tooltip container ******/
 .tip {
   position: relative;
   display: inline-block;
@@ -350,8 +356,10 @@ padding: 5% 7%;
 .tip .tiptext {
   visibility: hidden;
   width: 200px;
-  background-color: rgba(255, 193, 7, 0.7);
-  color: #00000;
+  height: auto;
+  align-items: center;
+  background-color: #8f7394;
+  color: rgb(255, 255, 255);
   text-align: center;
   padding: 2px 2px;
   border-radius: 2px;
@@ -367,7 +375,7 @@ padding: 5% 7%;
 .tip:hover .tiptext {
   visibility: visible;
   font-weight: normal;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .press-logo {
@@ -378,13 +386,12 @@ padding: 5% 7%;
 
 
 
-
-/* FOOTER */
+/****************** FOOTER ***********************/
 #footer {
-  padding: 7% 7%;
+  padding: 2% 2%;
 }
 
-.footer-text{
+.footer-text {
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -394,6 +401,45 @@ padding: 5% 7%;
   margin: 20px 20px;
 }
 
-.footer-icon:hover{
+.footer-icon:hover {
   color: #8f7394;
+}
+
+/* ERROR */
+.error-body {
+  text-decoration: none;
+  padding: 200px 10% 10px 10%;
+}
+
+.error-title {
+  color: #92669f;
+  font-weight: 200;
+  font-size: 4rem;
+  line-height: 1.2;
+  font-stretch: semi-expanded;
+}
+
+/* .error-span{
+
+} */
+.error-paragraph {
+  margin: 10px 100px;
+  letter-spacing: 0.10rem;
+  font-family: 'niveau-grotesk', sans-serif;
+}
+
+.error-text {
+  font-size: 1.5rem;
+  font-weight: lighter;
+}
+
+#error-index{
+
+  color: #0000;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+#error-index:hover{
+  color: #92669f;
+  text-decoration: none;
 }
